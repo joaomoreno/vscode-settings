@@ -1,0 +1,101 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 21,
+  "workbench.settings.openDefaultSettings": false,
+  "terminal.integrated.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.renderSideBySide": true,
+  "files.autoSave": "afterDelay",
+  "workbench.quickOpen.closeOnFocusLost": true,
+  "editor.formatOnSave": true,
+  "editor.folding": false,
+  "explorer.openEditors.visible": 0,
+  "workbench.editor.showTabs": false,
+  "git.confirmSync": false,
+  "editor.codeLens": false,
+  "files.eol": "\n",
+  "editor.cursorBlinking": "smooth",
+  "extensions.autoUpdate": true,
+  "http.proxyAuthorization": null,
+  "editor.fontLigatures": true,
+  "window.titleBarStyle": "custom",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "window.zoomLevel": 0,
+  "terminal.integrated.shell.osx": "/Users/joao/bin/code-shell",
+  "debug.allowBreakpointsEverywhere": true,
+  "zenMode.fullScreen": false,
+  "typescript.check.npmIsInstalled": false,
+  "git.enableSmartCommit": true,
+  "extensions.ignoreRecommendations": true,
+  "editor.renderIndentGuides": false,
+  "editor.minimap.enabled": false,
+  "editor.dragAndDrop": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  "markdown.preview.scrollEditorWithPreview": false,
+  "workbench.colorTheme": "Ayu Mirage",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.gitExplorer.enabled": false,
+  "workbench.sideBar.location": "left",
+  "explorer.confirmDelete": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": false
+  },
+  "git.autofetch": true,
+  "python.formatting.provider": "none",
+  "python.disablePromptForFeatures": [
+    "pylint",
+    "pep8"
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.control",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "storage",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "variable.language",
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "rust-client.channel": "nightly-2017-12-01-x86_64-apple-darwin",
+  "[cpp]": {
+    "editor.formatOnSave": false
+  },
+  "diffEditor.ignoreTrimWhitespace": true,
+  "gitlens.keymap": "none",
+  "gitlens.showWhatsNewAfterUpgrades": false
+}

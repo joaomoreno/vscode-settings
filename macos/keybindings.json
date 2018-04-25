@@ -1,0 +1,29 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+	{
+		"key": "cmd+w",
+		"command": "workbench.action.closeEditorsInGroup"
+	},
+	{
+		"key": "cmd+e",
+		"command": "workbench.action.quickOpen"
+	},
+	{
+		"key": "cmd+e",
+		"command": "workbench.action.quickOpenNavigateNext",
+		"when": "inQuickOpen"
+	},
+	{
+		"key": "shift+cmd+e",
+		"command": "workbench.action.quickOpenNavigatePrevious",
+		"when": "inQuickOpen"
+	},
+	{
+		"key": "ctrl+t",
+		"command": "git.stage"
+	},
+	{
+		"key": "ctrl+u",
+		"command": "git.unstage"
+	}
+]
