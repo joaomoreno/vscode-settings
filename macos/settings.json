@@ -1,101 +1,110 @@
-// Place your settings in this file to overwrite the default settings
 {
-  "editor.fontFamily": "Fira Code",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 21,
-  "workbench.settings.openDefaultSettings": false,
-  "terminal.integrated.fontSize": 13,
-  "editor.tabSize": 2,
-  "editor.insertSpaces": false,
-  "files.trimTrailingWhitespace": true,
-  "diffEditor.renderSideBySide": true,
-  "files.autoSave": "afterDelay",
-  "workbench.quickOpen.closeOnFocusLost": true,
-  "editor.formatOnSave": true,
-  "editor.folding": false,
-  "explorer.openEditors.visible": 0,
-  "workbench.editor.showTabs": false,
-  "git.confirmSync": false,
-  "editor.codeLens": false,
-  "files.eol": "\n",
-  "editor.cursorBlinking": "smooth",
-  "extensions.autoUpdate": true,
-  "http.proxyAuthorization": null,
-  "editor.fontLigatures": true,
-  "window.titleBarStyle": "custom",
-  "workbench.activityBar.visible": true,
-  "workbench.statusBar.visible": true,
-  "window.zoomLevel": 0,
-  "terminal.integrated.shell.osx": "/Users/joao/bin/code-shell",
-  "debug.allowBreakpointsEverywhere": true,
-  "zenMode.fullScreen": false,
-  "typescript.check.npmIsInstalled": false,
-  "git.enableSmartCommit": true,
-  "extensions.ignoreRecommendations": true,
-  "editor.renderIndentGuides": false,
-  "editor.minimap.enabled": false,
-  "editor.dragAndDrop": false,
-  "workbench.editor.enablePreview": false,
-  "workbench.startupEditor": "none",
-  "markdown.preview.scrollEditorWithPreview": false,
-  "workbench.colorTheme": "Ayu Mirage",
-  "gitlens.codeLens.enabled": false,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.gitExplorer.enabled": false,
-  "workbench.sideBar.location": "left",
-  "explorer.confirmDelete": false,
-  "gitlens.advanced.messages": {
-    "suppressCommitHasNoPreviousCommitWarning": false,
-    "suppressCommitNotFoundWarning": false,
-    "suppressFileNotUnderSourceControlWarning": false,
-    "suppressGitVersionWarning": false,
-    "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": false,
-    "suppressShowKeyBindingsNotice": true,
-    "suppressUpdateNotice": true,
-    "suppressWelcomeNotice": false
-  },
-  "git.autofetch": true,
-  "python.formatting.provider": "none",
-  "python.disablePromptForFeatures": [
-    "pylint",
-    "pep8"
-  ],
-  "explorer.confirmDragAndDrop": false,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "keyword.control",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": "storage",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": "comment",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "scope": "variable.language",
-        "settings": {
-          "fontStyle": ""
-        }
-      }
-    ]
-  },
-  "rust-client.channel": "nightly-2017-12-01-x86_64-apple-darwin",
-  "[cpp]": {
-    "editor.formatOnSave": false
-  },
-  "diffEditor.ignoreTrimWhitespace": true,
-  "gitlens.keymap": "none",
-  "gitlens.showWhatsNewAfterUpgrades": false
+	"editor.fontFamily": "Fira Code iScript",
+	"editor.fontSize": 15,
+	"terminal.integrated.fontSize": 14,
+	"editor.fontLigatures": true,
+	"explorer.openEditors.visible": 10,
+	"editor.folding": false,
+	"editor.tabSize": 2,
+	"editor.renderIndentGuides": false,
+	"editor.formatOnSave": true,
+	"workbench.settings.openDefaultSettings": false,
+	"editor.lineNumbers": "off",
+	"files.autoSave": "afterDelay",
+	"workbench.editor.showTabs": false,
+	"terminal.integrated.shell.osx": "/Users/joao/bin/code-shell",
+	"git.confirmSync": false,
+	"editor.minimap.enabled": false,
+	"explorer.confirmDelete": false,
+	"git.enableSmartCommit": true,
+	"editor.dragAndDrop": false,
+	"gitlens.currentLine.enabled": false,
+	"gitlens.codeLens.enabled": false,
+	"gitlens.gitExplorer.enabled": false,
+	"workbench.editor.enablePreview": false,
+	"terminal.integrated.rendererType": "canvas",
+	"gitlens.advanced.messages": {
+		"suppressCommitHasNoPreviousCommitWarning": false,
+		"suppressCommitNotFoundWarning": false,
+		"suppressFileNotUnderSourceControlWarning": false,
+		"suppressGitVersionWarning": false,
+		"suppressLineUncommittedWarning": false,
+		"suppressNoRepositoryWarning": false,
+		"suppressResultsExplorerNotice": false,
+		"suppressShowKeyBindingsNotice": true,
+		"suppressUpdateNotice": true,
+		"suppressWelcomeNotice": true
+	},
+	"git.autofetch": true,
+	"window.restoreWindows": "all",
+	"typescript.reportStyleChecksAsWarnings": false,
+	"rust-client.channel": "nightly",
+	"rust-client.logToFile": true,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "keyword",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": "storage",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": "comment",
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": "variable.language",
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+	"workbench.colorCustomizations": {
+		"[GitHub Plus]": {
+			"focusBorder": "#4b4b4b",
+			"titleBar.activeBackground": "#24292e",
+			"titleBar.inactiveBackground": "#5b5d5f",
+			"titleBar.activeForeground": "#cccccc",
+			"titleBar.border": "#ff000000",
+			"statusBar.foreground": "#cccccc",
+			"statusBar.background": "#24292e",
+			"statusBar.border": "#ff000000",
+			"scrollbar.shadow": "#00000000",
+			"input.border": "#d1d1d1",
+			"editor.background": "#f9f9f9",
+			"editor.lineHighlightBackground": "#eaeff5",
+			"editorPane.background": "#5b5d5f",
+			"editorGroup.border": "#cecece",
+			"sideBar.background": "#f3f3f3",
+			"sideBar.border": "#cecece",
+			"panel.background": "#f3f3f3",
+			"sideBarSectionHeader.background": "#dbdbdb",
+			"sideBarSectionHeader.foreground": "#616161",
+			"list.activeSelectionBackground": "#5790be",
+			"list.inactiveSelectionBackground": "#d0e2f0",
+			"list.focusBackground": "#c7c7c7",
+			"list.focusForeground": "#252525"
+		},
+	},
+	"window.zoomLevel": 0,
+	"workbench.startupEditor": "newUntitledFile",
+	"explorer.confirmDragAndDrop": false,
+	"editor.renderWhitespace": "none",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"gitlens.keymap": "none",
+	"gitlens.showWhatsNewAfterUpgrades": false,
+	"gitlens.historyExplorer.enabled": false,
+	"workbench.colorTheme": "GitHub Plus",
+	"extensions.ignoreRecommendations": true,
+	"workbench.tips.enabled": false,
+	"workbench.statusBar.feedback.visible": false
 }

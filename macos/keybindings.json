@@ -1,29 +1,33 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-	{
-		"key": "cmd+w",
-		"command": "workbench.action.closeEditorsInGroup"
-	},
-	{
-		"key": "cmd+e",
-		"command": "workbench.action.quickOpen"
-	},
-	{
-		"key": "cmd+e",
-		"command": "workbench.action.quickOpenNavigateNext",
-		"when": "inQuickOpen"
-	},
-	{
-		"key": "shift+cmd+e",
-		"command": "workbench.action.quickOpenNavigatePrevious",
-		"when": "inQuickOpen"
-	},
-	{
-		"key": "ctrl+t",
-		"command": "git.stage"
-	},
-	{
-		"key": "ctrl+u",
-		"command": "git.unstage"
-	}
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "shift+cmd+e",
+    "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.closeEditorsInGroup"
+  },
+  // {
+  //   "key": "cmd+w",
+  //   "command": "workbench.action.closeGroup",
+  //   "when": "activeEditorGroupEmpty && multipleEditorGroups"
+  // },
+  {
+    "key": "shift+cmd+;",
+    "command": "editor.action.codeAction",
+    "args": {
+      "kind": "refactor"
+    }
+  }
 ]
