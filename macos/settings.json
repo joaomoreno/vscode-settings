@@ -92,7 +92,8 @@
 			"list.activeSelectionBackground": "#5790be",
 			"list.inactiveSelectionBackground": "#d0e2f0",
 			"list.focusBackground": "#c7c7c7",
-			"list.focusForeground": "#252525"
+			"list.focusForeground": "#252525",
+			"activityBarBadge.background": "#1196be"
 		},
 	},
 	"window.zoomLevel": 0,
@@ -106,5 +107,7 @@
 	"workbench.colorTheme": "GitHub Plus",
 	"extensions.ignoreRecommendations": true,
 	"workbench.tips.enabled": false,
-	"workbench.statusBar.feedback.visible": false
+	"workbench.statusBar.feedback.visible": false,
+	"zenMode.hideStatusBar": false,
+	"zenMode.fullScreen": false
 }
