@@ -81,7 +81,6 @@
 	"workbench.statusBar.feedback.visible": false,
 	"zenMode.hideStatusBar": false,
 	"zenMode.fullScreen": false,
-	"github.accessToken": "1bd852cdd2a5ea33b10081e65b5a916ae42c169d",
 	"workbench.colorTheme": "GitHub Sharp",
 	"typescript.updateImportsOnFileMove.enabled": "always"
 }
