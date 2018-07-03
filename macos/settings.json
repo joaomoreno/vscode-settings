@@ -78,6 +78,12 @@
 			"statusBar.foreground": "#cccccc",
 			"statusBar.background": "#24292e",
 			"statusBar.border": "#ff000000",
+			"statusBar.noFolderForeground": "#cccccc",
+			"statusBar.noFolderBackground": "#24292e",
+			"statusBar.noFolderBorder": "#ff000000",
+			"statusBar.debuggingForeground": "#cccccc",
+			"statusBar.debuggingBackground": "#d64926",
+			"statusBar.debuggingBorder": "#ff000000",
 			"scrollbar.shadow": "#00000000",
 			"input.border": "#d1d1d1",
 			"editor.background": "#f9f9f9",
@@ -93,7 +99,8 @@
 			"list.inactiveSelectionBackground": "#d0e2f0",
 			"list.focusBackground": "#c7c7c7",
 			"list.focusForeground": "#252525",
-			"activityBarBadge.background": "#1196be"
+			"activityBarBadge.background": "#d64926",
+			"editorSuggestWidget.selectedBackground": "#c7c7c7"
 		},
 	},
 	"window.zoomLevel": 0,
@@ -104,10 +111,12 @@
 	"gitlens.keymap": "none",
 	"gitlens.showWhatsNewAfterUpgrades": false,
 	"gitlens.historyExplorer.enabled": false,
-	"workbench.colorTheme": "GitHub Plus",
 	"extensions.ignoreRecommendations": true,
 	"workbench.tips.enabled": false,
 	"workbench.statusBar.feedback.visible": false,
 	"zenMode.hideStatusBar": false,
-	"zenMode.fullScreen": false
+	"zenMode.fullScreen": false,
+	"github.accessToken": "1bd852cdd2a5ea33b10081e65b5a916ae42c169d",
+	"workbench.colorTheme": "GitHub Plus",
+	"typescript.updateImportsOnFileMove.enabled": "always"
 }
